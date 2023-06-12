@@ -1,0 +1,24 @@
+{
+  "name": "@nexys/telegram-client",
+  "version": "0.0.0",
+  "description": "Telegram client",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+  "repository": "https://github.com/nexys-system/telegram-client",
+  "author": "Nexys Sarl",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
