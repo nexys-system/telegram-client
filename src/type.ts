@@ -1,11 +1,12 @@
 export interface MessageResult {
   update_id: number;
-  message: {
+  message?: {
     chat: { id: string };
     text: string;
     date: number;
     from: { id: number };
   };
+  callback_query?: { data: string };
 }
 
 export interface UpdateShape {
@@ -17,8 +18,8 @@ export interface UpdateShape {
 export type ParseMode = "MarkdownV2" | "HTML";
 
 export interface ReplyMarkupUnit {
-  text: "Option 1";
-  callback_data: "1";
+  text: string;
+  callback_data: string;
 }
 
 export interface MessageOptions {
