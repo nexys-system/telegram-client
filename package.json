@@ -1,6 +1,6 @@
 {
   "name": "@nexys/telegram-client",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Telegram client",
   "main": "./dist/index.js",
   "types": "dist/index.d.ts",
