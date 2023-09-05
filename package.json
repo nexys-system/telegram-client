@@ -10,10 +10,10 @@
   "repository": "https://github.com/nexys-system/telegram-client",
   "author": "Nexys Sarl",
   "license": "MIT",
-  "type": "module",
+  
   "scripts": {
     "build": "tsc",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
